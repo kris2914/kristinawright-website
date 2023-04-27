@@ -222,7 +222,7 @@ color: #f39c12;
 	#about, #portfolio, #companies {width: 80% !important;}
 	 p, .heading,  .hero .press-start a  {font-size: 3.750vw!important; line-height: 4.750vw!important;}
 	.btn {font-size: 3.750vw!important; padding:4% 8%!important;}
-	.hero {min-height: 150vw!important;}
+	.hero {min-height: 130vw!important;}
 }
 /* If the orientation of the screen is Portrait */
 @media only screen and (orientation: Portrait) {
