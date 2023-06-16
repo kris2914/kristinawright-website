@@ -1,0 +1,979 @@
+<!DOCTYPE HTML>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fix to get Windows Phone 8 to render CSS3 and Media Queries-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happy Holidays from Adestra!</title>
+   
+    <style type="text/css">
+     /*  Mobile Responsive Email Editor Template built by Adestra Digital Design - 10/18 - KW */
+      body {
+            padding: 0;
+            margin: 0;
+        }
+        
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        
+        body,
+        td {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px
+        }
+        
+        img {
+            border: none;
+            display: block;
+        }
+        
+        .amf-editor .preheader_text {
+            display: block !important;
+            visibility: visible !important;
+        }
+      /*control text changed to links by phones*/
+      @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+        a[href^="tel"], a[href^="sms"], a {
+          color: inherit;
+          cursor: default;
+          text-decoration: none;
+        }
+      }
+      /*force full width on iPad*/
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        body {
+          min-width: 100% !important;
+        }
+      }
+      /* TARGETING START */
+      @media only screen and (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio:0) {
+        #webkitnocheck:checked ~ .fallback {
+          display:none;
+          display:none!important;
+          max-height:0;
+          overflow:hidden;
+        }
+        #webkitnocheck:checked ~ .interactive {
+          display:block !important;
+          max-height:none !important;
+        }
+      }
+      @media screen yahoo {
+        .fallback {
+          display:block!important;
+          max-height:none;
+        }
+        .interactive {
+          display:none !important;
+        }
+      }
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        #MessageViewBody .fallback, body.MsgBody + .fallback {
+          display:block!important;
+        }
+        #MessageViewBody .interactive, body.MsgBody + .interactive {
+          display:none !important;
+        }
+      }
+      @media screen and (max-width:9999px) {
+        u + .gmailbody .fallback {
+          display:block!important;
+          max-height:none;
+        }
+        u + .gmailbody .interactive {
+          display:none!important;
+        }
+      }
+      /* TARGETING END */
+        
+      /* INTERACTIVE SECTION */
+      @media only screen and (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio:0) {
+        .interactive_container {
+          position: relative;
+          display: block !important;
+          overflow: hidden;
+          width: 650px;
+          height: 600px }
+          
+        .arrow1, .arrow2, .arrow3 {
+          visibility: visible!important;
+          display: block!important;
+          max-height: 64px!important;
+          position: absolute!important;
+          z-index: 7;
+          top: 220px;
+          left: -1000px;
+          width: 33px;
+          height: 50px;
+          background-size: cover;
+        }
+          label {
+              cursor: pointer;
+          }
+        .scroll {
+          position: relative;
+          width:650px;
+          transition: all;
+          -webkit-transition: all;
+        }
+          .arrow_text_1, .arrow_text_2 {
+              display: none;
+          }
+        #card_1_content, #card_2_content, #card_3_content {
+          display: block!important;
+          max-height: none!important;
+          position: absolute;
+          top: 0;
+          width: 650px;
+          height: 600px;
+          opacity:0;
+          background-size:cover;
+          background-position:center top;
+        }
+        #card_1_content {
+          left: 0;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_uk_650x600.png);
+        }
+        #card_2_content {
+          left: 650px;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_us_650x600.png);
+        }
+        #card_3_content {
+          left: 1200px;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_aus_650x600.png);
+        }
+        #card_1:checked ~ div .scroll {
+          left: 0!important;
+        }
+        #card_1:checked ~ div #card_1_content {
+          opacity: 1;
+          transition: opacity .3s ease-in;
+        }
+        #card_1:checked ~ div .arrow2 {
+        right: 0px !important;
+        left: auto !important;
+        background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_right.png);
+        }
+        #card_2:checked ~ div .scroll {
+          left: -650px!important;
+          opacity:1!important;
+        }
+        #card_2:checked ~ div #card_2_content {
+          opacity: 1;
+          transition: opacity .3s ease-in;
+        }
+        #card_2:checked ~ div .arrow1 {
+          left: 0px!important;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_left.png);
+        }
+        #card_2:checked ~ div .arrow3 {
+            right: 0px !important;
+        left: auto !important;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_right.png);
+        }
+        #card_3:checked ~ div .scroll {
+          left: -1200px!important;
+          opacity:1!important;
+        }
+        #card_3:checked ~ div #card_3_content {
+          opacity: 1;
+          transition: opacity .3s ease-in;
+        }
+        #card_3:checked ~ div .arrow2 {
+          left: 0px!important;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_left.png);
+        }
+        .hotspots {
+          display:block !important;
+          max-height:none !important;
+          position:relative;
+          overflow:hidden;
+          width:650px;
+          height:600px;
+        }
+          
+      }
+      .reveal:hover div {
+        max-height:none !important;
+      }
+      .pulse {
+        -webkit-animation: pulse 2s ease 0s infinite;
+        border-radius:60px;
+        -webkit-box-shadow: 0px 0px 0px 4px #99cc33;
+      }
+      @-webkit-keyframes pulse {
+        0% {
+          opacity: 0.9;
+          -webkit-transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: scale(1.4);
+        }
+        100% {
+          opacity: 0.9;
+          -webkit-transform: scale(1);
+        }
+      }
+
+      @media only screen and (max-width:659px) {
+      .fl {
+            width: 100%;
+            width: 100% !important;
+            float: left;
+            height: auto;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .wrapper {
+            width: 94%;
+            width: 94% !important;
+            padding-left: 3%;
+            padding-right: 3%;
+            }
+          .pad_mob {
+              padding:10px 0 0 0 !important;
+          }
+          .pad15{
+              padding: 15px 0 !important;
+          }
+          .f14 {
+              font-size:14px !important;
+          }
+          .full_img img {
+                width: 100% !important;
+                height: auto;
+            }
+           .max_img img {
+                max-width: 100% !important;
+                height: auto;
+            }
+          .center {
+                text-align: center !important;
+                margin: 0 auto;
+                float: none !important;
+            }
+        .interactive_container {
+          position: relative;
+          display: block !important;
+          overflow: hidden;
+          width: 100%;
+          height: 490px; 
+          }
+          
+        .label_container {
+          position: relative;
+          width: 100%;
+          height: 70px;
+          margin:304px auto 0;
+          z-index:1;
+        }
+        .arrow1, .arrow2, .arrow3 {
+          visibility: visible!important;
+          display: block!important;
+          max-height: 45px!important;
+          position: absolute!important;
+          z-index: 7;
+          top: 130px !important;
+          width: 40px;
+          height: 40px;
+          background-size: cover;
+          cursor:pointer;
+        }
+        .scroll {
+          position: relative;
+          width:100%;
+          transition: all;
+          -webkit-transition: all;
+        }
+        #card_1_content, #card_2_content, #card_3_content {
+          display: block!important;
+          max-height: none!important;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 490px;
+          opacity:0;
+          background-size:cover;
+          background-position:center top;
+        }
+        #card_1_content {
+          top: 0;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_uk_650x600.png);
+        }
+        #card_2_content {
+          top: 480px;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_us_650x600.png);
+        }
+        #card_3_content {
+          top: 980px;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_aus_650x600.png);
+        }
+        #card_1:checked ~ div .scroll {
+          top: -374px;
+          !important;
+        }
+        #card_1:checked ~ div #card_1_content {
+          opacity: 1;
+          transition: opacity .3s ease-in;
+        }
+        #card_1:checked ~ div .arrow2 {
+          right: 10px!important;
+          left: auto !important;  
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_right_green.png);
+        }
+        #card_2:checked ~ div .scroll {
+          top: -854px!important;
+          opacity:1!important;
+        }
+        #card_2:checked ~ div #card_2_content {
+          opacity: 1;
+          transition: opacity .3s ease-in;
+        }
+        #card_2:checked ~ div .arrow1 {
+          left: 10px !important;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_left_green.png);
+        }
+        #card_2:checked ~ div .arrow3 {
+          right: 10px !important;
+          left: auto !important;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_right_green.png);
+        }
+        #card_3:checked ~ div .scroll {
+          top: -1354px!important;
+          opacity:1!important;
+        }
+        #card_3:checked ~ div #card_3_content {
+          opacity: 1;
+          transition: opacity .3s ease-in;
+        }
+        #card_3:checked ~ div .arrow2 {
+          left: 10px!important;
+          background-image:url(http://clients.msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/arrow_left_green.png);
+        }
+        .hotspots {
+          width:350px !important;
+          height:700px !important;
+          margin:0px auto;
+        }
+          .spot {
+              width: 12px !important;
+              height: 12px !important;
+          }
+          .hotspots td {
+              font-size: 12px !important;
+          }
+          .hotspots td img{
+             width: 70px !important;
+            height: auto !important;
+          }
+          .hotspots td .w30{
+             width: 30px !important;
+            height: auto !important;
+              padding-top: 10px !important;
+          }
+          .hotspots td .w50{
+             width: 50px !important;
+            height: auto !important;
+          }
+          .text_pad {
+              padding: 10px 10px 5px 10px !important;
+          }
+           .cta_pad {
+              padding: 0 10px 10px 10px !important;
+          }
+            .arrow_text_1, .arrow_text_2 {
+              display: block !important;
+              margin-top:450px !important;
+              font-family:'Myriad Pro', Arial, Helvetica, sans-serif;
+              font-weight:bold;
+              font-size:15px;
+              position: relative;
+        }
+          .arrow_text_1 {
+                margin-left: 10px;
+               color:#343b42;
+               text-align:left;
+          }
+          .arrow_text_2 {
+               color:#343b42;
+               text-align:center;
+          }
+        #hotspot1 {
+          margin-top:340px !important;
+          margin-left:32px !important;
+        }
+        #box1 {
+          margin-left: -25px !important;
+          margin-top:0px !important;
+          width: 190px !important;
+          height: auto !important;
+        }
+        #hotspot2 {
+          margin-top:240px !important;
+          margin-left:210px !important;
+        }
+        #box2 {
+          margin-left:-110px !important;
+          margin-top:-105px !important;
+           width: 190px !important;
+          height: auto !important;
+        }
+        #hotspot3 {
+          margin-top:320px !important;
+          margin-left:290px !important;
+        }
+        #box3 {
+          margin-left:-200px !important;
+          margin-top:-40px !important;
+          width: 200px !important;
+          height: auto !important;
+        }
+        #hotspot4 {
+          margin-top:340px !important;
+          margin-left:55px !important;
+        }
+        #box4 {
+          margin-left:15px !important;
+          margin-top:-30px !important;
+          width: 190px !important;
+          height: auto !important;
+        }
+        #hotspot5 {
+          margin-top:210px !important;
+          margin-left:150px !important;
+        }
+        #box5 {
+          margin-left:-100px !important;
+          margin-top:-150px !important;
+          width: 230px !important;
+          height: auto !important;
+        }
+        #hotspot6 {
+          margin-top:282px !important;
+          margin-left:200px !important;
+        }
+        #box6 {
+          margin-left:-60px !important;
+          margin-top:0px !important;
+          width: 190px !important;
+          height: auto !important;
+        }
+        #hotspot7 {
+          margin-top:320px !important;
+          margin-left:80px !important;
+        }
+        #box7 {
+          margin-left:-80px !important;
+          margin-top:0px !important;
+          width: 220px !important;
+          height: auto !important;
+        }
+        #hotspot8 {
+          margin-top:275px !important;
+          margin-left:190px !important;
+        }
+        #box8 {
+          margin-left:-115px !important;
+          margin-top:-120px !important;
+          width: 220px !important;
+          height: auto !important;
+        }
+         #hotspot9 {
+          margin-top:320px !important;
+          margin-left:265px !important;
+        }
+        #box9 {
+          margin-left:-155px !important;
+          margin-top:0px !important;
+           width: 220px !important;
+          height: auto !important;
+        }
+      }
+        @media only screen and (max-width:320px) {
+              .arrow_text_1 {
+                  font-size: 14px !important;
+            }
+        }
+        
+    </style>
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Kristina Wright</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Kristina Wright</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100FD901232D99D0244846E0E0A8C88063C</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+  
+  <body class="gmailbody" id="body">
+    <table width="100%" cellpadding="0" cellspacing="0" align="center" border="0"
+    style="table-layout: fixed; margin: 0 auto;">
+     <tr>
+         <td align="center">
+             <table width="100%" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ecebec">
+                 <tr>
+                     <td align="center" style="padding: 25px 0;" class="pad15">
+                        <table width="650" cellpadding="0" cellspacing="0" align="center" border="0" class="wrapper">
+                             <tr>
+                                 <td align="center">
+                                     <table cellpadding="0" cellspacing="0" border="0">
+                                         <tr>
+                                           <td class="max_img" align="left" style="font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 28px; color: #99cc33; font-weight:bold;">
+                                             <a href="https://uplandsoftware.com/" target="_blank"><img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/upland_logo.png" style="display: block; width:130px;" alt="Upland" width="130" border="0"></a>
+                                         </td>
+                                              <td style="padding: 10px 25px 0 25px;">
+                                                  <table width="1" cellpadding="0" cellspacing="0" border="0">
+                                                      <tr>
+                                                          <td width="1" height="40" bgcolor="#a4a3a3" style="font-size:1px; line-height: 1px;">
+                                                              &nbsp;
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                               <td class="max_img" align="left" style="font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 28px; color: #99cc33; font-weight:bold;">
+                                             <a href="http://www.adestra.com" target="_blank"><img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/adestra_logo.png" style="display: block; width:192px;" alt="Adestra" width="192" border="0"></a>
+                                         </td>
+                                         </tr>
+                                     </table>
+                                 </td>
+                             </tr>
+                            
+                         </table>
+                     </td>
+                 </tr>
+             </table>
+         </td>
+     </tr>
+     
+     <tr>
+         <td align="center">
+             <table width="100%" cellpadding="0" cellspacing="0" align="center" border="0">
+                 <tr>
+                     <td align="center" style="padding: 20px 0;">
+                        <table width="650" cellpadding="0" cellspacing="0" align="center" border="0" class="wrapper">
+                             <tr>
+                                 <td align="center" style="font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 28px; color: #99cc33; font-weight:bold;">
+                                     Discover hidden surprises around the house!
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <td align="center" style="font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px; color: #000000; ">
+                                     Click through to see how we celebrate the holiday season in each of our 3 global locations.
+                                 </td>
+                             </tr>
+                         </table>
+                     </td>
+                 </tr>
+             </table>
+         </td>
+     </tr>
+      <tr>
+        <td align="center">
+          <!--[if !mso]>
+            <!-- -->
+            <input type="checkbox" id="webkitnocheck" name="webkit" checked="checked" style="display:none;max-height:0;visibility:hidden;">
+          <!--<![endif]-->
+        <div class="fallback">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+              <tr>
+                 <td align="center" style="font-size:15px; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif; padding: 0 0 10px 0">
+                            <a href="[*link.webversion_url*]" style="color:#99cc33;" linklabel="">Click here to view the interactive version!</a>
+                    </td>
+            </tr>
+              <tr>
+                <td align="center">
+                    <a href="[*link.webversion_url*]" linklabel=""><img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot_background_uk_fallback.png" style="display: block; width: 650px;" alt="" width="650" border="0"></a>
+                </td>
+              </tr>
+            </table>
+            </div>
+          <!--[if !mso]>
+            <!-- -->
+            <div class="interactive" style="mso-hide:all;display:none;max-height:0;overflow:hidden;">
+              <table width="650" class="fl" cellpadding="0" cellspacing="0" align="center"
+              border="0" style="width:650px;" bgcolor="#ededed">
+                <tr>
+                  <td>
+                   <input type="radio" id="card_1" name="scroll" checked="checked" style="display:none;max-height:0;visibility:hidden;">
+                    <input type="radio" id="card_2" name="scroll" style="display:none;max-height:0;visibility:hidden;">
+                    <input type="radio" id="card_3" name="scroll" style="display:none;max-height:0;visibility:hidden;">
+                    <div class="interactive_container">
+                      <div class="label_container">
+                      <label class="arrow1" for="card_1" style="display:none;max-height:0;visibility:hidden;"></label>
+                        <label class="arrow2" for="card_2" style="display:none;max-height:0;visibility:hidden;"></label>
+                        <label class="arrow3" for="card_3" style="display:none;max-height:0;visibility:hidden;"></label>
+                      </div>
+                      <div class="scroll">
+                        <div id="card_1_content">
+                          <div class="hotspots">
+                            <!-- hotspot 1 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot1" style="position:relative; margin-top:410px; margin-left:150px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box1" style="max-height:0px; overflow:hidden; width:260px; margin-left:-113px; margin-top:-150px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_1" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">It isn’t a UK office party without an ugly sweater or two!</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.instagram.com/p/BrXjoCZnwm0/" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_1" linklabel="">Which Adestrian wore it best?</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/jumper.png" style="display: block;" border="0" amf:image="hotspot_image_1" alt="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 1 -->
+                            <!-- hotspot 2 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot2" style="position:relative; margin-top:300px; margin-left:375px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box2" style="max-height:0px; overflow:hidden; width:280px; margin-left:-113px; margin-top:-160px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                     <tr>
+                                            <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_2" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">What were the top email trends of 2018? </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;">
+                                                        <a href="https://www.adestra.com/resources/2018-email-marketing-industry-census/" target="_blank" style="color: #99cc33; text-decoration: underline;" linklabel="">Download our report now...</a>
+                                                        </td>
+                                                         <td style="padding: 0 10px 10px 0;" align="right" valign="bottom">
+                                                        <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/books.png" style="display: block;" border="0" amf:image="hotspot_image_2" alt="">
+                                                    </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                           
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 2-->
+                             <!-- hotspot 3 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot3" style="position:relative; margin-top:420px; margin-left:500px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box3" style="max-height:0px; overflow:hidden; width:260px; margin-left:-250px; margin-top:-40px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_3" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">This traditional British pudding is on the dessert menu this year. </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="http://www.adestra.com/blog/adestra-holiday-e-card-2018-ultimate-christmas-pudding-recipe" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_3" linklabel="">Try our recipe for a hidden surprise...</a></td>
+                                                        <td style="padding: 10px 10px 10px 0;" align="right" valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/christmas_pud.png" style="display: block;" border="0" amf:image="hotspot_image_3" alt="">
+                                            </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 3-->
+                            <div class="arrow_text_1">Tap the arrow to explore the next location
+                          </div>
+                          </div>
+                        </div>
+                        <div id="card_2_content">
+                          <div class="hotspots">
+                            <!-- hotspot 4 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot4" style="position:relative; margin-top:440px; margin-left:160px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box4" style="max-height:0px; overflow:hidden; width:260px; margin-left:-113px; margin-top:-210px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td class="text_pad" align="left" style="padding:15px 0 0 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_4" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">North American parents will be hiding these mischievous little guys around their houses this month. </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 0 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.adestra.com/elf-404-page/" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_4" linklabel="">Find out what the Adestra elf has been up to...</a></td>
+                                                        <td style="padding: 0 10px 10px 0;" align="right" valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/elf_on_shelf.png" style="display: block;" border="0" amf:image="hotspot_image_4" alt="">
+                                            </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 4 -->
+                            <!-- hotspot 5 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot5" style="position:relative; margin-top:270px; margin-left:340px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box5" style="max-height:0px; overflow:hidden; width:280px; margin-left:-130px; margin-top:-170px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_5" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">Popular in the US, this spiced seasonal drink makes an appearance once again.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.adestra.com/blog/adestra-email-marketing-holiday-e-card-2018-spiced" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_5" linklabel="">Read on for Matt’s recipe...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding: 10px 10px 10px 0;" align="right" valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/egg_nog.png" style="display: block;" border="0" amf:image="hotspot_image_5" alt="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 5-->
+                            <!-- hotspot 6 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot6" style="position:relative; margin-top:360px; margin-left:360px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box6" style="max-height:0px; overflow:hidden; width:260px; margin-left:-45px; margin-top:0px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_6" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">We made this year’s Inc. 5000 list of fastest-growing private companies.</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.adestra.com/news-events/global-martech-leader-adestra-featured-2018-inc-5000/" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_6" linklabel="">We’re pleased with our ranking too...</a></td>
+                                                        <td style="padding: 0 10px 10px 0;" align="right" valign="bottom">
+                                                        <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/inc_5000.png" style="display: block;" border="0" amf:image="hotspot_image_6" alt="">
+                                                    </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 6-->
+                            <div class="arrow_text_2">Keep going to see 1 more location
+                          </div>
+                          </div>
+                        </div>
+                        <div id="card_3_content">
+                          <div class="hotspots">
+                           <!-- hotspot 7 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot7" style="position:relative; margin-top:390px; margin-left:220px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                 <div id="box7" style="max-height:0px; overflow:hidden; width:260px; margin-left:-113px; margin-top:0px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_7" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">The Boxing Day Test match is an unmistakably Australian tradition.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.adestra.com/resources/serious-sport-drives-engagement-and-conversions-with-uniquely-personalized-product-recommendations/?highlight=serious%20sport" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_7" linklabel="">Maybe they should buy their kit from these guys...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding: 0 10px 10px 0;" align="right" valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/cricket.png" style="display: block;" border="0" amf:image="hotspot_image_7" alt="" class="w30">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 7 -->
+                            <!-- hotspot 8 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot8" style="position:relative; margin-top:330px; margin-left:370px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                  <div id="box8" style="max-height:0px; overflow:hidden; width:260px; margin-left:-130px; margin-top:-150px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_8" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">Pavlova is a must at this time of year.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.adestra.com/blog/adestra-holiday-e-card-2018-exotic-pavlova-recipe" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_8" linklabel="">Check out our mouth-watering recipe here...</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding: 0 10px 10px 0;" align="right" valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/pavlova.png" style="display: block;" border="0" amf:image="hotspot_image_8" alt="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 8 -->
+                            <!-- hotspot 9 -->
+                            <div style="max-height:0; max-width:0; overflow:visible !important;">
+                              <div id="hotspot9" style="position:relative; margin-top:380px; margin-left:450px; display:inline-block; z-index:2;">
+                                <div class="reveal" style="max-width:0px; overflow:visible !important;">
+                                  <img class="spot pulse" src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/hotspot.png"
+                                  width="20" height="20" style="display:block;" alt="" border="0">
+                                 <div id="box9" style="max-height:0px; overflow:hidden; width:260px; margin-left:-113px; margin-top:0px; z-index:2; background-color:#ffffff;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:6px solid #99cc33;">
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td class="text_pad" align="left" style="padding:15px 10px 2px 15px; font-size: 16px; color: #000000; font-family:'Myriad Pro', Helvetica, Arial, Sans-Serif;" amf:htmlbox="hotspot_text_9" amf:htmltools="TextColor Cut Copy Paste PasteText PasteFromWord">We are the (service) champions! Find out why we are so proud of our APAC team’s</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="cta_pad" align="left" style="padding:0px 15px 10px 15px; font-family: 'Myriad Pro', Helvetica, Arial, Sans-Serif; font-size: 16px;"><a href="https://www.adestra.com/news-events/csia-service-champion-2018/" target="_blank" style="color: #99cc33; text-decoration: underline;" amf:link="hotspot_cta_9" linklabel="">outstanding customer service this year.</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td style="padding: 0 10px 10px 0;" align="right" valign="bottom">
+                                                <img src="http://msgfocus.com/files/amf_adestra/workspace_184/adestra_holiday_ecard/trophy.png" style="display: block;" border="0" amf:image="hotspot_image_9" alt="" class="w50">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /hotspot 9-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          <!--<![endif]-->
+        </td>
+      </tr>
+       <tr>
+         <td align="center">
+             <table width="100%" cellpadding="0" cellspacing="0" align="center" border="0">
+                 <tr>
+                     <td align="center">
+                         <table cellpadding="0" cellspacing="0" border="0" width="100%" amf:container="footer" amf:bgcolor bgcolor="#343b42">
+                    <tr>
+                        <td align="center" style="padding: 30px 0 30px 0;">
+                            <table cellpadding="0" cellspacing="0" border="0" width="650" class="wrapper" style="width:650px;">
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                            <tr>
+                                                <td align="center" class="center title" style="color:#ffffff; padding: 0 40px 10px; font-family:arial, sans-serif; font-size: 20px; vertical-align:top;" valign="top" amf:htmlbox="Footer" amf:htmltools="Bold Italic Underline Strike Subscript Superscript FontSize Format RemoveFormat NumberedList BulletedList Outdent Indent JustifyLeft JustifyCenter JustifyRight Link Unlink TextColor EmailTools Cut Copy Paste PasteText PasteFromWord">
+                                                    Let's get social
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" width="100%" align="center">
+                                                    <table border="0" cellpadding="0" cellspacing="0" align="center">
+                                                        <tr amf:repeat="add_row_of_icons">
+                                                            <td style="padding: 0 5px 20px 5px;">
+                                                                <a href="https://twitter.com/Adestra" style="text-decoration:none;" amf:link="image_link1" linklabel="">
+                                                                    <img src="https://msgf.net/files/amf_adestra/project_211/1Twitter.png" alt="Follow us on Twitter" border="0" style="display:block; width:20px;" amf:resize-width="40" amf:image="footer_sharelink1" width="20">
+                                                                </a>
+                                                            </td>
+                                                            <td style="padding: 0 5px 20px 5px;">
+                                                                <a href="https://www.linkedin.com/company/adestra/" style="text-decoration:none;" amf:link="image_link2" linklabel="">
+                                                                    <img src="https://msgf.net/files/amf_adestra/project_211/1Linkedin_Connect.png" alt="Follow us on LinkedIn" border="0" style="display:block; width:20px;" amf:resize-width="40" amf:image="footer_sharelink2" width="20">
+                                                                </a>
+                                                            </td>
+                                                            <td style="padding: 0 5px 20px 5px;" amf:repeat="add_footer_social_icon" amf:repeat-max="6">
+                                                                <a href="https://www.facebook.com/adestraglobal/" style="text-decoration:none;" amf:link="image_link3" linklabel="">
+                                                                    <img src="https://msgf.net/files/cmi_dev/workspace_416/template_images/f20.png" alt="Follow us on Facebook" border="0" style="display:block; width:20px;" amf:resize-width="40" amf:image="footer_sharelink3" width="20">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="center no_hpad" style="color:#b2b2b2; font-family:arial, sans-serif;  font-size: 11px; line-height: 14px; vertical-align:top; padding:0 0 20px 0;" valign="top" amf:htmlbox="Footer_lower" amf:htmltools="Bold Italic Underline Strike Subscript Superscript FontSize Format RemoveFormat NumberedList BulletedList Outdent Indent JustifyLeft JustifyCenter JustifyRight Link Unlink TextColor EmailTools Cut Copy Paste PasteText PasteFromWord">            
+Registered address: Adestra Ltd, Holywell House, Osney Mead, Oxford, Oxfordshire OX2 0ES. <br>
+Registered in England and Wales. No: 05267378 
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" class="center" style="color:#b2b2b2; font-family:arial, sans-serif; font-size: 11px; line-height:14px;  padding:0 0 20px 0;" amf:htmlbox="Footer_unsub" amf:htmltools="TextColor Link Unlink Format RemoveFormat Cut Copy Paste PasteText PasteFromWord">
+                                       <a href="[* form.link_url(275) *]" style="color:#8ec63f;text-decoration: none; ">Update your preferences</a> and decide which communications you would like to receive from Adestra.<br>
+                                            <br>If you would prefer not to receive communications from Adestra, please <a href="[* form.link_url(278) *]" style="color:#8ec63f;text-decoration: none; ">Unsubscribe</a>.<br><br>View our <a href="www.adestra.com/privacy-policy/" style="color:#8ec63f;text-decoration: none; ">privacy policy</a>.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" class="center" style="color:#b2b2b2; font-family:arial, sans-serif; font-size: 11px; line-height:14px;" amf:htmlbox="Footer_webversion" amf:htmltools="TextColor Link Unlink Format RemoveFormat Cut Copy Paste PasteText PasteFromWord">
+                                        View the <a href="[*link.webversion_url*]" style="color:#8ec63f; font-family:arial, sans-serif; text-decoration: none; ">Web Version</a> of this email.
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                     </td>
+                 </tr>
+             </table>
+         </td>
+     </tr>
+    </table>
+   
+  </body>
+
+</html>
