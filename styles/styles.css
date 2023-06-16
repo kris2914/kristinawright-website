@@ -216,7 +216,7 @@ color: #f39c12;
 	.hero {
 		min-height: 150vw !important;
 	}
-		#about,
+	#about,
 	#portfolio,
 	#companies {
 		width: 80% !important;
@@ -250,7 +250,7 @@ color: #f39c12;
 	.hero {
 		min-height: 180vw !important;
 	}
-	#portfolio .container {
+	#about .container, #portfolio .container {
 		padding: 5% 12% !important;
 	}
 }
