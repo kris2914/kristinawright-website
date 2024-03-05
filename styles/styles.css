@@ -115,7 +115,7 @@ color:#8d08ff;
 }
 
 #about, #portfolio, #companies {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 	z-index:2;
 	position: relative;
@@ -126,10 +126,7 @@ color:#8d08ff;
 	background: #000000;
 	padding: 5%;
 	margin-bottom: 10%;
-	-webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.69);
-	-moz-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.69);
-	box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.69);
-	border-radius: 10px;
+
 }
 
 
