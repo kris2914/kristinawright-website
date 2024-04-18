@@ -51,6 +51,18 @@ margin: 0 0 4% 0;
 width: 100%;
 }
 
+.heading2 {
+color: #fff;
+text-align:center;
+position: relative;
+display: inline-block;
+font-family: 'retro', sans-serif;
+font-size: 1.2em;
+font-weight: 300;
+margin: 2% 0 2% 0;
+width: 100%;
+}
+
 /* Hero section */
 .hero {
 min-height: 45vw!important;
