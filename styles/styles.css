@@ -16,7 +16,7 @@ border: none;
 background: #000;
 }
 
-p {color: #fff;
+p, ul {color: #fff;
 text-align:center;
 font-family: 'Courier New', monospace;
 font-weight: bold;
@@ -24,8 +24,13 @@ font-size: 1.1em;
 line-height: 1.1em;
 z-index:2;
 margin: 0;
+padding-bottom: 20px;
 }
 
+ul {
+    list-style-position: inside;
+
+}
 
 .heading {
 color: #fff;
@@ -152,10 +157,6 @@ color:#8d08ff;
    -webkit-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.69);
 	-moz-box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.69);
 	box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.69);
-}
-
-#portfolio p {
-margin-bottom: 6%;
 }
 
 .social p {
