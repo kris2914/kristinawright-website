@@ -116,6 +116,7 @@ letter-spacing:0.1em;
 line-height:0.6em;
 margin-bottom:15px;
 text-shadow: -6px 0 #8d08ff;
+padding-left: 10px;
 }
 .hero-text h2 {
 font-family: "retro", sans-serif;
@@ -271,7 +272,7 @@ color: #f39c12;
 		min-height: 180vw !important;
 	}
 	#about .container, #portfolio .container {
-		padding: 5% 12% !important;
+		padding: 5% 0 !important;
 	}
 }
 
