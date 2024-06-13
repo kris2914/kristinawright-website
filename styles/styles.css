@@ -4,6 +4,10 @@
 font-family: "retro";
 src: url("fonts/Pixel-Miners.otf") format("opentype");
 }
+@font-face {
+font-family: "Thaleah Fat";
+src: url("fonts/ThaleahFat.ttf") format("truetype");
+}
 html {
 scroll-behavior: smooth;
 font-size: 18px;
@@ -98,19 +102,18 @@ animation:blinkingText 2.5s infinite;
 position:absolute;
 z-index:2;
 top:50%;
-left:50%;
+left:52%;
 transform:translate(-50%, -50%);
 text-align:center;
 }
 
 .hero-text h1 {
 color:#fff;
-font-family: "retro", sans-serif;
-font-weight:900;
-font-size:4.35em;
+font-family: "Thaleah Fat", sans-serif;
+font-size:6em;
 text-transform:uppercase;
 letter-spacing:0.1em;
-line-height:1.1em;
+line-height:0.6em;
 margin-bottom:15px;
 text-shadow: -6px 0 #8d08ff;
 }
@@ -244,7 +247,7 @@ color: #f39c12;
 
 @media only screen and (max-width: 480px){
 	.hero-text h1 {
-		font-size: 10vw !important;
+		font-size: 20vw !important;
 	}
 
 	.hero-text h2 {
@@ -252,7 +255,7 @@ color: #f39c12;
 	}
 
 	p, ul, 
-	.heading,
+	.heading, .heading2,
 	.hero .press-start a {
 		font-size: 3.750vw !important;
 		line-height: 4.750vw !important;
