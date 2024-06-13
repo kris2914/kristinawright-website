@@ -102,7 +102,7 @@ animation:blinkingText 2.5s infinite;
 position:absolute;
 z-index:2;
 top:50%;
-left:52%;
+left:50%;
 transform:translate(-50%, -50%);
 text-align:center;
 }
